@@ -13,12 +13,26 @@
 <body>
     <h1> Calculator</h1>
     <a href="more.html">!sin</a>
+    <table>
+    <tr>
+    <th><div id="calculator" style="display: block;">
+        <h1></h1>
+        <!-- Your calculator UI goes here -->
+        <button id="historyButton">History</button>
+    </div>
 
-    <a id="myLink" href="history.html">history</a>
+    <div id="history" style="display: none;">
+        <h1></h1>
+        <ul id="historyList">
+            <!-- The calculated history will be displayed here -->
+        </ul>
+        <button id="clearHistoryButton" style="margin-top: 50px;">Clear History</button>
+    </div>
+    </th>
 
 
 
-    <div class="container flex flex-col items-center mx-auto m-w-20">
+    <th><div class="container flex flex-col items-center mx-auto m-w-20">
         <div class="row">
             <input class="input" type="text" />
         </div>
@@ -53,6 +67,9 @@
             <button class="button">=</button>
         </div>
     </div>
+    </th>
+    </tr>
+    </table>
     <script src="sty.js"></script>
 </body>
 <style>
