@@ -8,10 +8,15 @@
     margin-bottom: 500px;    
     margin-right: 50px;
 }
-.historyButton {
-    align-items: right;
-}
+#historyButton {
+    background-color: #ff8585;
+    font-size: 25px;
+    border-radius:25px;
 
+}
+#historyButton:hover{
+    background-color: aqua;
+}
 .container {
     padding-top: 40px;
 }
