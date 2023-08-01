@@ -95,6 +95,10 @@ historyButton.addEventListener('click', () => {
   showHistoryView();
 });
 
+clearHistoryButton.addEventListener('click', () => {
+    clearHistory();
+  });
+
 // When the user clicks the "Back to Calculator" button in the history view, show the calculator view
 const backButton = document.createElement('button');
 backButton.textContent = 'Back to Calculator';
@@ -111,13 +115,6 @@ function initializeApp() {
   // Display the calculator view initially
   showCalculatorView();
 }
-
-
-
-
-
-
-
 function fact(num) {
     if (num < 0) {
         return -1;
