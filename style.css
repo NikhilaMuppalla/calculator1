@@ -1,3 +1,13 @@
+#calculator{
+    margin-bottom: 500px;    
+    margin-right: 50px;
+    
+}
+
+#history{
+    margin-bottom: 500px;    
+    margin-right: 50px;
+}
 .historyButton {
     align-items: right;
 }
